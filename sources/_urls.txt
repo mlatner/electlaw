@@ -1,0 +1,5 @@
+# Long URLs (presigned download links etc.) referenced by sources.md
+# One block per source, separated by a blank line.
+
+# James (2020) — Comparative Electoral Management chapter
+https://d1wqtxts1xzle7.cloudfront.net/61235785/James_2020_chapter0420191116-112746-clb0fl-libre.pdf?1573915126=&response-content-disposition=inline%3B+filename%3DComparative_Electoral_Management_Perform.pdf&Expires=1777953695&Signature=LbHoIvuxMkU~e7ivqjkLfHLdoZSz~7e6cXZE3NAFNGf1ZDLceNTOMhb6c6EuK-n3V9QoAWzm8yqzFEDCn0U4ZfrGNi2cLzBSSpnTXXGmsvxxw7dwUa0is6B0zSo5VKUB582oDq5nmyS1tTZfgXaqQzy3nvcRTSrp7RDCrRYpqEyG-AKOovuNxr9tnMuvu1xO6k89qrSBaIQ6YKm02fPv9bm2ZvTGbmvQVk3necKI4jW9P3XLndoovasZyjbDc0-lWCDDvSJdDnhN-ebqG4OEx4Fm7WUfRzgkAxkelWn8-jGq3Z3Y4GaaFuFtBrhC~yTE8zsSWsWX1LhPwCgnrljWMQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA

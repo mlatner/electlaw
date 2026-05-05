@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>electlaw — Implementing Proportional Representation in the United States</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  color: #1a1a2e;
+  background: #f8f7f4;
+  line-height: 1.7;
+  padding: 0;
+}
+.container { max-width: 820px; margin: 0 auto; padding: 60px 40px 100px; }
+.eyebrow {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 8px;
+  line-height: 1.2;
+  border-bottom: 4px solid #2563eb;
+  padding-bottom: 16px;
+}
+.subtitle {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-style: italic;
+  font-size: 1.15em;
+  color: #475569;
+  margin: 16px 0 0;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin: 52px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e2e8f0;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #334155;
+  margin: 36px 0 12px;
+}
+h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #475569;
+  margin: 24px 0 8px;
+}
+p { margin: 0 0 16px; font-size: 1.05em; }
+ul, ol { margin: 0 0 20px 28px; }
+li { margin: 0 0 10px; font-size: 1.02em; }
+em { font-style: italic; }
+strong { font-weight: 700; color: #0f172a; }
+blockquote {
+  border-left: 4px solid #2563eb;
+  background: #eef2ff;
+  padding: 14px 22px;
+  margin: 24px 0;
+  font-style: italic;
+  color: #1e3a5f;
+}
+.case-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 28px;
+  margin: 16px 0 24px;
+}
+.case-grid div {
+  font-size: 0.97em;
+  border-left: 3px solid #cbd5e1;
+  padding-left: 12px;
+}
+.case-grid b {
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+  font-weight: 600;
+}
+.tag {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 100px;
+  margin-right: 6px;
+  margin-top: 4px;
+  vertical-align: middle;
+}
+.tag-done { background: #dcfce7; color: #166534; }
+.tag-progress { background: #fef3c7; color: #854d0e; }
+.tag-planned { background: #e2e8f0; color: #475569; }
+.footer {
+  margin-top: 80px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.92em;
+  color: #64748b;
+  text-align: center;
+}
+.footer a { color: #2563eb; text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .container { padding: 40px 24px 80px; }
+  h1 { font-size: 1.7em; }
+  h2 { font-size: 1.25em; }
+  .case-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="eyebrow">Project Overview</div>
+<h1>electlaw</h1>
+<p class="subtitle">A statutory and administrative implementation guide to
+proportional representation for U.S. lawyers and administrators.</p>
+
+<h2>What this project is</h2>
+
+<p>electlaw is a practitioner-oriented analytical document and user's
+guide for U.S. lawyers and administrators on the <strong>statutory and
+administrative implementation of proportional representation</strong>
+&mdash; at the federal, state, and local level, in both partisan and
+non-partisan contexts.</p>
+
+<p>It is conceived as a much larger and more detailed follow-up to the
+Charles Hamilton Houston Institute / Guinier Project primer
+<em>Getting from Votes to Seats: A Primer on Electoral System Design</em>.
+Where the primer answers <em>what</em> the components of an electoral
+system are, this project answers <em>how</em> to codify and administer
+them in the United States.</p>
+
+<blockquote>
+The deliverable is a legal-document reference. Case studies must rely
+on actual statutory text and codes, not on journalism or summaries.
+Every recommendation is grounded in a working foreign provision and an
+explicit assessment of its portability to U.S. constitutional and
+administrative environments.
+</blockquote>
+
+<h2>The three primary components &mdash; the core legal structure</h2>
+
+<p>This is a guide to <em>writing PR election law into existence</em>
+and getting it legislatively adopted. For each primary component, the
+user's-guide question is not <em>what it is</em> &mdash; the primer
+answers that &mdash; but <strong>how it is constructed in law</strong>:
+which legal instrument carries the choice, what statutory language has
+worked in working systems, and what political-adoption considerations
+follow. The case profiles distill drafting models for each component,
+with explicit U.S.-portability assessments.</p>
+
+<h3>1. Seat Product &mdash; how assembly size and district magnitude are codified</h3>
+<p>The first drafting question is <em>where</em> assembly size and
+district magnitude live and <em>how amendable</em> they are. Working
+systems split across three patterns:</p>
+<ul>
+<li><b>Population-tiered table in a municipal code.</b> Bavaria's
+<em>Gemeindeordnung</em> Art. 31 sets council size by a fixed table
+&mdash; 8 members up to 1,000 residents, 12 up to 2,000, and so on
+through to 80 for Munich. The table forecloses the political fight
+over council size that dominates U.S. local-reform debates and ties
+expansion to demographic fact rather than ad-hoc bargaining.</li>
+<li><b>Fixed count in primary legislation.</b> The federal
+<em>Bundeswahlgesetz</em> § 1(1): "Der Deutsche Bundestag besteht aus
+630 Abgeordneten" &mdash; the Bundestag consists of 630 members. A
+single-sentence statutory cap.</li>
+<li><b>Council-by-council choice within state law.</b> NSW councils
+choose between 5, 7, 9, 12, or 15 members and between ward-divided
+or undivided structure under the <em>Local Government Act 1993</em>;
+the choice is set in each council's constitution.</li>
+</ul>
+<p>For U.S. drafters, the threshold question is which legal instrument
+carries the fix &mdash; charter, state statute, or constitution.
+Charter amendment is the usual local lever; state-constitutional
+clauses may foreclose certain choices and should be checked first.
+The <strong>Threshold of Exclusion = 1 / (M + 1)</strong> belongs in
+the legislative findings so the political case for the chosen district
+magnitude sits on the record.</p>
+
+<p><b>Districting authority and criteria.</b> Once magnitude is set,
+districts must be drawn. The drafting questions are <em>who</em> has
+authority to draw the lines, <em>what criteria</em> govern, and
+<em>how often</em> the lines are reviewed. The federal
+<em>Bundeswahlgesetz</em> § 3 entrusts a permanent
+<em>Wahlkreiskommission</em> &mdash; appointed by the Federal President
+and including a Federal Statistical Office representative and a
+Federal Administrative Court judge &mdash; with periodic review and
+proposed redistricting; statutory criteria require respect for
+<em>L&auml;nder</em> boundaries, population deviation under 15%
+(tightening to 10% from 1 January 2026), coherence of area, and
+respect for municipal boundaries. Bavarian and NRW local councils sit
+within a single municipal district by default, sidestepping
+intra-municipal districting altogether. NSW councils choose between
+ward-divided and undivided structures.</p>
+<p>For U.S. PR adoption, districting law is the densest body of
+existing constitutional doctrine the new statute will sit alongside:
+<em>Reynolds v. Sims</em> on one-person-one-vote, Section 2 of the
+Voting Rights Act, and state-constitutional districting clauses. PR
+with varying magnitudes (Switzerland, the LA proposal in the Guinier
+primer at p. 8) introduces wrinkles purely single-seat redistricting
+law has not addressed. The drafter's task is to specify districting
+authority and criteria <em>in the same statute</em> as the magnitude
+choice, so the two are reviewed together.</p>
+
+<h3>2. Ballot Structure &mdash; how the law defines the voter's act</h3>
+<p>The drafting question is what the voter's mark <em>means</em>. Three
+working statutory models &mdash; each a single-sentence drafting
+keystone:</p>
+<ul>
+<li><b>One vote, dual duty</b> (NRW <em>Kommunalwahlgesetz</em> § 25):
+"<em>Der W&auml;hler hat eine Stimme</em>" &mdash; the voter has one
+vote. The mark elects a constituency candidate and counts for that
+candidate's reserve list, which fills proportional balance seats.
+Operationally simple. Closed list within the reserve.</li>
+<li><b>As many votes as seats, with cumulation and panachage</b>
+(Bavaria GLKrWG Art. 34): voters give up to three votes to a single
+candidate (<em>kumulieren</em>) and split votes across lists
+(<em>panaschieren</em>). Maximum voter agency, at the cost of ballot
+complexity and longer counts.</li>
+<li><b>Above-the-line group voting</b> (NSW <em>Local Government Act
+1993</em> s 308C): the ballot has two sections. A single mark above
+the line is a vote for the group, with preferences flowing within
+that group only. Numbered preferences below the line override the
+group order. The single-mark option is the dominant voting mode in
+practice.</li>
+</ul>
+<p>Each model also defines what list labels may appear and how non-party
+participants are accommodated. Bavaria's residual definition is the
+cleanest single-sentence answer to the labeling problem (GLKrWG Art.
+24(1)): <em>W&auml;hlergruppen</em> are "all other associations or
+groups of natural persons whose purpose is to participate in
+municipal or county elections" &mdash; with no required organizational
+form.</p>
+<p>The U.S. drafter's choice among these models is a trade-off between
+voter agency and ballot simplicity, with measurable consequences for
+invalid-vote rates, count duration, and political acceptability. The
+2024 NSW local elections produced invalid-vote rates under 1% on the
+single-mark option; comparable Bavarian open-list ballots run higher.</p>
+
+<h3>3. Allocation Formula &mdash; named or written procedurally</h3>
+<p>The first drafting question for the formula is whether to identify
+it by <strong>name</strong> (Sainte-Lagu&euml;, D'Hondt) or to write
+the <strong>procedure</strong> directly into the statute. Working
+systems have settled on procedural drafting:</p>
+<blockquote>"<em>die Gesamtstimmenzahlen … nacheinander so lange durch
+1, 3, 5, 7, 9 und so weiter geteilt</em>" (Bavaria GLKrWG Art. 35(2))
+&mdash; the total vote counts are divided in turn by 1, 3, 5, 7, 9,
+and so on. The eponym "Sainte-Lagu&euml;" appears nowhere in the
+statute.</blockquote>
+<p>The federal <em>Bundeswahlgesetz</em> § 5 and the NRW
+<em>Kommunalwahlgesetz</em> § 33 follow the same pattern: divisor
+adjusted iteratively to fit the available seats; standard arithmetic
+rounding; ties resolved by lot. The procedural style is the model for
+U.S. adoption, where familiarity with European eponyms cannot be
+assumed and the calculation must be reproducible from the statutory
+text alone.</p>
+<p><b>Threshold drafting.</b> A <em>legal threshold</em> (e.g., the
+German federal 5%) layers on top of the natural threshold of exclusion
+that district magnitude alone produces. Pure-percentage thresholds are
+constitutionally fragile: in <em>BVerfG, 30 July 2024, 2 BvF 1/23</em>,
+the German Federal Constitutional Court held that the 5% threshold
+without the <em>Grundmandatsklausel</em> (admission for a sub-threshold
+party that wins three or more constituency seats) is unconstitutional.
+A U.S. PR statute should anticipate this with an explicit backdoor
+&mdash; either a Grundmandatsklausel-style constituency-win path or an
+apparentement provision letting small lists pool for allocation.</p>
+<p><b>Apparentement and intra-list assignment.</b> Two further
+formula-adjacent drafting choices: apparentement (Denmark
+<em>listeforbund</em>; Finland <em>vaaliliitto</em>) lets small lists
+pool for allocation while keeping separate ballot identities. Intra-list
+seat assignment ranges from list-order (NRW closed reserve list) to
+pure preference voting (Bavaria GLKrWG Art. 36(1): "<em>in der
+Reihenfolge ihrer Stimmenzahlen</em>" &mdash; in the order of their
+vote totals). Tie-breaking is reliably handled by drawing of lots by
+the returning officer.</p>
+
+<h2>Connected areas of law</h2>
+
+<p>The mechanics of PR are embedded in a wider statutory and
+administrative environment. The guide treats these connected areas at
+the depth needed to explain how each one bears on the three primary
+components:</p>
+
+<ul>
+<li><b>Voter eligibility and registration</b> &mdash; defines the denominator for any threshold calculation.</li>
+<li><b>Candidate, party, and list registration</b> &mdash; the most heavily developed connected area; covers both standard partisan ballot access and the novel non-partisan list registration regime needed for many U.S. local charters.</li>
+<li><b>Campaign finance and disclosure</b> &mdash; especially the asymmetries between party and non-party participants.</li>
+<li><b>Election management bodies</b> &mdash; institutional design, independence, funding stability.</li>
+<li><b>Vote count, certification, recounts</b> &mdash; the point at which the allocation formula meets administrative practice.</li>
+<li><b>Election dispute resolution</b> &mdash; pre-election and post-election forums.</li>
+<li><b>Media access</b> &mdash; broadcast equal-time and digital-platform regulation as it bears on list visibility.</li>
+</ul>
+
+<h2>Comparative cases</h2>
+
+<p>Thirteen working systems provide the empirical bedrock. Each is
+documented using a consistent template that walks through the three
+primary components, the connected areas, and a portability assessment
+for U.S. implementation.</p>
+
+<div class="case-grid">
+<div><b>Germany &mdash; Federal (Bundestag)</b><br>Canonical MMP. Two-vote ballot. Sainte-Lagu&euml;. Post-2024 BVerfG threshold ruling. <span class="tag tag-done">Done</span></div>
+<div><b>Germany &mdash; Bavaria</b><br>Open-list with cumulation and panachage. <em>W&auml;hlergruppen</em> as residual non-party lists. Sainte-Lagu&euml; since 2018. <span class="tag tag-done">Done</span></div>
+<div><b>Germany &mdash; NRW</b><br>One-vote MMP-style closed list. Active constitutional jurisprudence on threshold and formula choice. <span class="tag tag-done">Done</span></div>
+<div><b>Australia &mdash; NSW Local</b><br>Optional preferential PR with above-the-line group voting &mdash; the canonical one-mark-or-detailed-preferences ballot architecture. <span class="tag tag-done">Done</span></div>
+<div><b>Brazil</b><br>Open-list at the candidate-centered extreme. Post-2017 abolition of <em>coliga&ccedil;&otilde;es</em> for proportional contests. <span class="tag tag-progress">Up next</span></div>
+<div><b>Spain</b><br><em>Agrupaci&oacute;n de electores</em> under LOREG &mdash; the closed-list non-party list model. <span class="tag tag-planned">Planned</span></div>
+<div><b>Netherlands</b><br><em>Lokale partijen</em> as a working non-party list system; preference votes against the <em>kiesdeler</em>. <span class="tag tag-planned">Planned</span></div>
+<div><b>Finland</b><br>Pure open list; <em>valitsijayhdistys</em> as voter associations. <span class="tag tag-planned">Planned</span></div>
+<div><b>Denmark</b><br>List-cartel mechanics (<em>listeforbund</em>); flexible vs. parallel-ordered list choice. <span class="tag tag-planned">Planned</span></div>
+<div><b>Belgium</b><br>Three regional regimes; flexible list; Imperiali formula at municipal level. <span class="tag tag-planned">Planned</span></div>
+<div><b>Chile</b><br>Post-2015 reform; independent-list mechanics; Constitutional Convention precedent. <span class="tag tag-planned">Planned</span></div>
+<div><b>South Africa</b><br>Local mixed (ward + PR); independents on PR list since 2023. <span class="tag tag-planned">Planned</span></div>
+<div><b>New Zealand</b><br>Canonical MMP at national level; reserved M&#257;ori seats; 5%-or-three-electorates threshold. <span class="tag tag-planned">Planned</span></div>
+<div><b>Scotland</b><br>STV at local level &mdash; included for the administrative scaffolding lessons (candidate descriptions in lieu of party labels). <span class="tag tag-planned">Planned</span></div>
+<div><b>United Kingdom</b><br>London Assembly only. Mostly a negative case. <span class="tag tag-planned">Planned</span></div>
+</div>
+
+<h2>Diagnostic and reference tools</h2>
+
+<p>Four frameworks are applied to each provision under study. They are
+diagnostic lenses, not the project's core legal structure.</p>
+
+<ul>
+<li><b>PROSeS</b> (James 2020) &mdash; performance evaluation across five clusters: Process Design, Resource Investment, Service Output Quality, Service Outcomes, Stakeholder Satisfaction.</li>
+<li><b>PEI eleven-stage electoral cycle</b> (Norris / Electoral Integrity Project) &mdash; checklist of which connected-area provisions exist in a given case.</li>
+<li><b>Venice Commission Code of Good Practice in Electoral Matters</b> (2002) &mdash; a normative floor: universal, equal, free, secret, direct suffrage; periodicity; respect for fundamental rights; regulatory stability; procedural safeguards.</li>
+<li><b>Gardner (ed.) <em>Comparative Election Law</em></b> (Edward Elgar 2022) &mdash; the universal-vs-particular portability test, applied to discipline the move from comparative description to U.S. recommendation.</li>
+</ul>
+
+<h2>Cross-cutting commitment</h2>
+
+<p>The project is committed to making <strong>equality in voting rights
+and minority representation</strong> an explicit dimension of comparison
+&mdash; alongside the three primary components &mdash; when synthesizing
+across cases. This is consistent with the project's lineage in the
+Guinier Project / Charles Hamilton Houston Institute and its audience
+of U.S. reformers working on minority representation.</p>
+
+<h2>Repository structure</h2>
+
+<p>The project's working files live in <code>/Users/mlatner/electlaw/</code>:</p>
+
+<ul>
+<li><code>framework/</code> &mdash; master synthesis, the three component documents, connected-areas catalog, performance and electoral-cycle diagnostics, the case-study template.</li>
+<li><code>cases/</code> &mdash; one folder per country / sub-jurisdiction, each with a structured profile keyed to the framework.</li>
+<li><code>comparisons/</code> &mdash; cross-cutting write-ups (planned).</li>
+<li><code>models/</code> &mdash; draft model U.S. statutes (planned, downstream of the comparative phase).</li>
+<li><code>sources/</code> &mdash; primary statutes, secondary materials, source ledger, local PDF cache (currently includes the Bundeswahlgesetz, the OSCE/ODIHR 2025 Germany report, the Guinier Project primer, and others).</li>
+</ul>
+
+<h2>Status</h2>
+
+<p>Project started 2026-05-04. Framework v2 (organized around the
+primer's three components) finalized 2026-05-04. As of 2026-05-05, four
+case profiles are substantively complete (Germany federal, Bavaria,
+NRW, NSW local Australia), and Brazil is up next. Comparison documents,
+draft model statutes, and the eventual integrated guide are downstream
+of the comparative phase.</p>
+
+<div class="footer">
+A companion to <a href="https://thehoustoninstitute.com" target="_blank" rel="noopener">The Charles Hamilton Houston Institute</a> &middot;
+<a href="https://democracyscookbook.com" target="_blank" rel="noopener">Democracy's Cookbook</a> &middot;
+Built on the Guinier Project's <em>Getting from Votes to Seats</em> primer.
+</div>
+
+</div>
+</body>
+</html>
