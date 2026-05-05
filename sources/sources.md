@@ -96,6 +96,30 @@ it offers. Annotate further once read.
 
 ## Primary statutes
 
+### Netherlands
+
+#### Primary statutes
+
+- **Kieswet** (Wet van 28 september 1989, Stb. 423),
+  consolidated text. Hoofdstukken H (kandidaatstelling) and P
+  (vaststelling uitslag) are the keystones.
+  <https://wetten.overheid.nl/BWBR0004627/>
+- **Gemeentewet** (Wet van 14 februari 1992, Stb. 96), Art. 8
+  sets council size by population.
+  <https://wetten.overheid.nl/BWBR0005416/>
+- **Grondwet voor het Koninkrijk der Nederlanden**, Arts. 4
+  and 129.
+- **Wet financiering politieke partijen** (Wfpp).
+- **Wijzigingswet 25.221 (1997)** — lowered voorkeursdrempel
+  from 50% to 25% for elections with M ≥ 19.
+- **Wet afschaffen lijstverbindingen (2017)** — abolished
+  apparentement at all levels.
+
+#### Official EMB (Kiesraad) materials
+
+- *Kiesraad* portal:
+  <https://www.kiesraad.nl/>
+
 ### Brazil
 
 #### Primary statutes
