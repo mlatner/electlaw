@@ -96,6 +96,39 @@ it offers. Annotate further once read.
 
 ## Primary statutes
 
+### France
+
+#### Primary statutes
+
+- **Loi n° 82-1169 du 31 décembre 1982** — original PLM Law.
+  <https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068710/>
+- **Loi n° 2025-795 du 11 août 2025** — 2025 PLM reform
+  (separation of citywide and arrondissement ballots, 25%
+  bonus citywide).
+  <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075863>
+- **Code Électoral**, Arts. L. 260 et seq. (general regime
+  for communes ≥ 1,000); Arts. L. 271 et seq. (PLM regime).
+  <https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006070239/>
+- **Code général des collectivités territoriales**, Arts.
+  L. 2511-1 et seq. (Paris, Lyon, Marseille governance).
+
+### Belgium
+
+#### Primary statutes
+
+- **Constitution belge / Belgische Grondwet**, Articles 41,
+  61–63, 162.
+  <https://www.dekamer.be/kvvcr/pdf_sections/publications/constitution/grondwetEN.pdf>
+- **Code Électoral / Algemeen Kieswetboek** (Loi du 12 avril
+  1894 / Wet van 12 april 1894), federal level.
+- ***Lokaal en Provinciaal Kiesdecreet*** van 8 juli 2011
+  (BS 25 juli 2011), Flanders.
+  <https://codex.vlaanderen.be/Portals/Codex/documenten/1020561.html>
+- ***Decreet over het Lokaal Bestuur***, Flanders (governance
+  act with council-size schedule).
+- **Code de la démocratie locale et de la décentralisation**,
+  Wallonia.
+
 ### Netherlands
 
 #### Primary statutes
