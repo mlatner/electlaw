@@ -562,7 +562,7 @@ the shortened timelines of an early election.
 
 #### Why this matters for US implementation
 
-Three points are particularly relevant for US drafting:
+Three points are directly relevant for US drafting:
 
 1. **The threshold is constitutional only with a backdoor.**
    Germany's experience confirms that any pure percentage
@@ -1024,7 +1024,7 @@ identifying_name_for_nonparty: required by § 20(4) — non-party
 
 #### Notes
 
-The party-vs-non-party boundary at the federal level is sharp:
+The party-vs-non-party boundary at the federal level is well-defined:
 
 - **Parties (registered)** can submit constituency nominations
   *and* Land lists.
@@ -1041,7 +1041,7 @@ drafting model: a fixed deadline backbone with each subsequent
 authority deciding by a known date, plus an explicit BVerfG
 appeal track for refused parties (§ 18(4a)).
 
-For US implementation, three features are particularly notable:
+For US implementation, three features are notable:
 
 1. **Continuous-representation incumbency advantage** (§ 18(2)) —
    exempts established parties from signature requirements. US
@@ -1607,7 +1607,7 @@ as part of the constitutional defect.
 
 **Citizen satisfaction**: not directly surveyed in the OSCE
 report, but turnout (82.5%) and trust expressed by interlocutors
-suggest robust satisfaction with election administration.
+suggest general satisfaction with election administration.
 
 **Staff satisfaction**: ~675,000 poll workers were recruited and
 trained; ODIHR did not separately survey staff satisfaction.

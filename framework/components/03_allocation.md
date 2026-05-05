@@ -123,7 +123,7 @@ and then divide the resulting seats internally. Forms include:
 
 Apparentement is a way for small groups to capture the benefits of a
 larger denominator without merging organizationally. It is
-particularly useful for non-partisan lists that may share an
+useful for non-partisan lists that may share an
 ideological direction but want separate ballot identities.
 
 ## Statutory questions for case studies

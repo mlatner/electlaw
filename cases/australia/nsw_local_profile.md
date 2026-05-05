@@ -54,7 +54,7 @@ analytically central Australian case**:
 2. **Optional preferences below the line** (under the LGA Part
    IV, Schedule 4 counting rules) mean that a voter who marks
    only above the line is treated differently from a voter who
-   marks below the line — a clean drafting solution to the
+   marks below the line — a drafting solution to the
    "what does a list mark mean?" problem.
 3. **NSW retained the older above-the-line architecture** even
    after the 2016 federal Senate reform abolished group voting
@@ -269,7 +269,7 @@ label_validation_authority:      Returning Officer / NSW Electoral
 
 ### Notes — the above-the-line interface as a design pattern
 
-Three features of NSW above-the-line voting are particularly
+Three features of NSW above-the-line voting bear directly
 important for the user's preferred ballot architecture:
 
 1. **Single mark above the line is the dominant voting mode**.
@@ -400,9 +400,8 @@ intra_list_ties_rule:            lot
 
 ### Notes
 
-Two features of the NSW counting regime are particularly
-relevant for the project even though STV-as-conversion is out
-of scope:
+Two features of the NSW counting regime are relevant for the
+project even though STV-as-conversion is out of scope:
 
 1. **The Droop quota is the procedural keystone** for any
    STV-derived system. Bavarian municipal allocation under
@@ -707,7 +706,7 @@ procedural_safeguards: compliant
 
 ### Top three takeaways for US state/local implementation
 
-1. **Above-the-line group voting is the cleanest implementation
+1. **Above-the-line group voting is one implementation
    of one-mark-or-detailed-preferences voter choice.** The
    ballot makes the choice structurally explicit by using two
    sections (above and below the line). The single-mark option

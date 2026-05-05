@@ -2,7 +2,7 @@
 
 Municipal council (*gemeenteraad*) elections under the *Kieswet*.
 Open-list PR with preference votes. **Local-only parties (*lokale
-partijen*)** are extremely common and frequently win pluralities; this
+partijen*)** are common and frequently win pluralities; this
 is one of the strongest working examples of a non-national-party list
 ecosystem.
 

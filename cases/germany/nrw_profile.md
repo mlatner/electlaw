@@ -50,14 +50,14 @@ distinguish it analytically:
    simultaneously elects a constituency candidate and counts for
    the party/voter-grouping's reserve list. This is a simpler
    ballot architecture than the federal Bundestag's two-vote
-   MMP, and a sharp contrast with Bavaria's "as many votes as
+   MMP, and a structural contrast with Bavaria's "as many votes as
    seats" cumulation/panachage system.
 2. **Closed reserve lists**: list seats fill in submitted order
    (§ 33(6)) — opposite of Bavaria's pure-preference intra-list
    rule (Art. 36 GLKrWG).
 3. **Active constitutional jurisprudence** on PR mechanics — the
    2017 threshold strike-down and the 2024–25 formula saga are
-   the project's richest case study on how a state constitutional
+   the project's most extensively developed case study on how a state constitutional
    court polices the equal-chances and equality-of-elections
    doctrines when the legislature touches the three primary
    components.
@@ -236,7 +236,7 @@ label_validation_authority:      Wahlausschuss under § 18
 
 ### Notes
 
-Three features sharpen the comparison with Bavaria:
+Three features structure the comparison with Bavaria:
 
 1. **Closed reserve lists** (§ 16, § 33(6)): list seats fill in
    submitter-set order. Voters cannot reorder lists or cumulate
@@ -384,7 +384,7 @@ Three takeaways with direct application:
    courts could, in principle, apply analogous analysis to a
    state-level PR statute.
 2. **The "rounding-gains-to-larger-parties" diagnostic**: the
-   VerfGH used a clean mathematical test — does the formula
+   VerfGH used a mathematical test — does the formula
    make rounding gains *predictably* favor one class of
    parties? Sainte-Laguë and Webster pass this test (rounding
    is essentially random); D'Hondt/Jefferson, Imperiali, and
@@ -631,14 +631,14 @@ procedural_safeguards: compliant
    NRW's § 31 architecture preserves the proportional outcome
    while halving the ballot's cognitive load relative to the
    federal Bundestag. For US states considering an MMP-style
-   reform, NRW is the cleaner direct model — particularly
-   where voters are unaccustomed to dual-ballot logic.
+   reform, NRW is a directly portable model where voters are
+   unaccustomed to dual-ballot logic.
 
 2. **Constitutional courts can police formula manipulation.**
    The 2024–2025 saga shows that an attempt to manipulate the
    allocation formula in favor of larger parties is reviewable
    under equal-chances and equality-of-elections doctrines.
-   The "predictable-rounding-bias" test is a clean diagnostic
+   The "predictable-rounding-bias" test is a diagnostic
    that US state constitutional courts could plausibly adopt
    under existing equal-protection doctrine.
 

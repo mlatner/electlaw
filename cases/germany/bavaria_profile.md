@@ -35,8 +35,7 @@
 ### Why this case is in the project
 
 Bavaria is the project's analytical center for **non-partisan list
-administration in local elections**. Three features are
-particularly diagnostic:
+administration in local elections**. Three features are diagnostic:
 
 1. **Wählergruppen** — voter groupings — compete on equal footing
    with registered parties under GLKrWG Art. 24. The legal
@@ -469,7 +468,7 @@ choice through ordinary legislation.
    function without one — a useful answer to the political concern
    that PR will lead to splinter-party fragmentation. Bavaria
    relies on **structural threshold from M alone**.
-2. **The pure-preference intra-list rule** (Art. 36) is a clean
+2. **The pure-preference intra-list rule** (Art. 36) is a
    drafting solution to the criticism that closed-list PR
    "disempowers voters." Voters retain full control over which
    list candidates are seated.

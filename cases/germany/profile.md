@@ -1,7 +1,8 @@
 # Germany — case overview
 
-Germany is the richest single case in the project. Each of the 16
-*Länder* has its own *Kommunalwahlgesetz* governing local elections,
+Germany is the most extensively developed single case in the project.
+Each of the 16 *Länder* has its own *Kommunalwahlgesetz* governing
+local elections,
 and the federal *Bundeswahlgesetz* governs national parliamentary
 elections under MMP. Because the federal regime and the *Länder*
 regimes differ substantially, this case is split into multiple
@@ -33,12 +34,12 @@ sub-profiles.
   list, half-and-half tier integration via § 31, Sainte-Laguë
   allocation (restored after VerfGH NRW 20 May 2025), no
   statutory threshold at council level (after VerfGH NRW 21
-  November 2017). The richest case in the project for
+  November 2017). The most extensively developed case in the project for
   constitutional jurisprudence on PR mechanics.
 
-## Why Germany is the richest comparator
+## Why Germany covers the most variation across the design space
 
-- The cleanest working example of **MMP at the national level**
+- A working example of **MMP at the national level**
   — Components 1, 2, and 3 are designed together with deliberate
   attention to compensatory mechanics.
 - The **most permissive intra-list voter choice** anywhere in

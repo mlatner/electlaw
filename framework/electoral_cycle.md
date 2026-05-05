@@ -14,7 +14,7 @@ PR / MMP, local emphasis, non-partisan list administration):
 |---|---|---|
 | 1 | **Electoral laws** | The basic statutory architecture: which laws govern, at which level (national/sub-national), how amendable, and how stable. The Venice Commission's "regulatory levels and stability" principle lives here. |
 | 2 | **Electoral procedures** | The administrative regulations that operationalize the laws: timelines, forms, certifications, ballot logistics. Often where list-administration mechanics are spelled out in detail. |
-| 3 | **District boundaries** | District magnitude, who draws boundaries and how often, and the threshold-by-magnitude trade-off that is structurally critical to list PR. |
+| 3 | **District boundaries** | District magnitude, who draws boundaries and how often, and the threshold-by-magnitude trade-off that is structurally central to list PR. |
 | 4 | **Voter registration** | Eligibility rules, registration mechanics, accuracy and completeness of the register. Upstream of list dynamics but determines the denominator for any threshold. |
 | 5 | **Party / candidate / list registration** | The most analytically central stage for our project. Who can submit a list — registered party, voter grouping, citizen committee, independent. Signature thresholds, deposits, deadlines, equal-treatment rules between party and non-party lists. |
 | 6 | **Media coverage** | Statutory rules on access to broadcast and public space, especially equal-time provisions and how they treat non-party lists. |

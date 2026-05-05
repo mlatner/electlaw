@@ -44,7 +44,8 @@ already have substantial M (e.g., 5–10 council seats), but combine
 that magnitude with the wrong ballot structure (block plurality vote)
 and so deliver winner-take-all outcomes despite the high magnitude.
 Switching the ballot/allocation while preserving the magnitude is
-often the cleanest path to proportional outcomes.
+often a path to proportional outcomes that requires no change to
+existing district geometry.
 
 ## Statutory questions for case studies
 

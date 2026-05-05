@@ -91,7 +91,7 @@ around the three primary components.
 
 Cases are selected to maximize coverage of the design space:
 
-- **Germany (Bavaria especially)** — rich non-partisan list ecosystem;
+- **Germany (Bavaria especially)** — extensive non-partisan list ecosystem;
   open list with cumulation/panachage.
 - **Netherlands** — *lokale partijen* as a working non-party list
   system; preference votes; abolished apparentement.

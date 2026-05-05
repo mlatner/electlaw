@@ -14,10 +14,10 @@ non-partisan groupings under any list-like ballot.
   conversion rule is *not* a list formula. Candidates are still grouped
   visually and registered jointly, even though votes are individual
   rankings.
-- It is a clean comparison for "what *can* be borrowed from list-PR
+- It is a comparison for "what *can* be borrowed from list-PR
   administrative practice without importing list-PR vote conversion."
 - The interaction between STV and **independents / non-party groupings**
-  is the cleanest in the UK.
+  is the most documented in the UK.
 
 ## Open questions to resolve
 

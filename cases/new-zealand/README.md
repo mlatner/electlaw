@@ -3,7 +3,7 @@
 National parliamentary elections under the *Electoral Act 1993* and
 the *Electoral Referendum Act 1993*. Mixed-Member Proportional (MMP)
 since 1996, adopted by referendum after a Royal Commission report.
-**The cleanest working example of MMP** in our case set, and the
+A canonical working example of MMP in our case set, and the
 strongest comparator for any US state-legislature-level reform that
 might adopt MMP.
 
