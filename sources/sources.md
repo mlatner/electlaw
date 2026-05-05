@@ -96,6 +96,27 @@ it offers. Annotate further once read.
 
 ## Primary statutes
 
+### Spain
+
+#### Primary statutes
+
+- **Constitución Española** (29 December 1978), Articles 14,
+  23, 68, 69, 140.
+- **Ley Orgánica 5/1985, de 19 de junio, del Régimen
+  Electoral General** (LOREG), consolidated text. Junta
+  Electoral Central:
+  <https://www.juntaelectoralcentral.es/cs/jec/loreg>
+- **Ley Orgánica 6/2002 de Partidos Políticos**.
+- **Ley Orgánica 8/2007 sobre Financiación de los Partidos
+  Políticos**.
+
+#### Junta Electoral Central instructions
+
+- JEC Instruction 7/2011 — signature authentication for
+  Congress / Senate candidacies (interpreting LOREG Arts. 169
+  and 220):
+  <https://www.boe.es/buscar/doc.php?id=BOE-A-2011-14814>
+
 ### France
 
 #### Primary statutes
