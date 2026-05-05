@@ -34,6 +34,14 @@
 - **EMB**: *Kiesraad* (Electoral Council) at national level;
   *centraal stembureau* (central electoral bureau) at the
   municipality.
+- **What is and is not elected at the municipal level**: only
+  the *gemeenteraad* (council) is directly elected. The
+  *burgemeester* (mayor) is appointed by Royal Decree
+  (Grondwet Art. 131); *wethouders* (aldermen) are elected by
+  the council. The full executive (*college van burgemeester
+  en wethouders*) is derived from the proportional council
+  composition through coalition formation. See Section 4.D for
+  full detail.
 - **Last regular election**: 16 March 2022. Next regular: March
   2026 (held quadrennially on the third Wednesday of March).
 - **Analyst**: this profile, 2026-05-05.
@@ -614,7 +622,7 @@ local branches of national parties; multiple Dutch
 parliamentary-committee reports have flagged the asymmetry, but
 no statutory remediation has been enacted.
 
-### D. Election administration
+### D. Election administration and local governance structure
 
 The *Kiesraad* (Electoral Council) is the national EMB. Council
 elections are administered by the **municipality itself**
@@ -622,6 +630,82 @@ through its central electoral bureau, with the Kiesraad
 providing standardized procedures and forms. This is a
 decentralized model similar to German *Länder* practice, with
 the addition of a coordinating national body.
+
+#### What is and is not elected at the municipal level
+
+Per *Gemeentewet* and the Grondwet:
+
+- **Gemeenteraad** (council): the only directly elected body.
+  Members elected by the proportional rules of Components 1–3.
+- **Burgemeester** (mayor): **not elected**. Appointed by Royal
+  Decree (*Koninklijk Besluit*) on the recommendation of the
+  Minister of the Interior, after a recommendation from the
+  council. Grondwet Art. 131. The minister may refuse the
+  council's recommendation only for "weighty reasons"
+  (*zwaarwegende redenen*) and rarely does.
+- **Wethouders** (aldermen / executive members): elected by
+  the council from inside or outside the council membership.
+  Wethouders form the daily executive board (*college van
+  burgemeester en wethouders*) together with the burgemeester.
+
+The implication is structurally important: **Dutch municipal
+proportional representation determines the entire democratic
+component of municipal government**. The college (executive) is
+derived through council coalition formation; the mayor is
+appointed by the Crown. Voters elect only the council, but the
+council's PR composition then determines the executive
+composition.
+
+This is a contrast with U.S. municipal practice, where mayor
+and council are typically elected separately and a strong-mayor
+configuration may give the mayor a popular mandate independent
+of the council. For U.S. PR adoption in council-manager cities
+(where the manager is appointed and there is no separately
+elected strong mayor), the Dutch model maps cleanly. For
+strong-mayor cities, PR adoption affects only one chamber of a
+two-mandate system.
+
+#### Wet dualisering gemeentebestuur (2002)
+
+The **Wet dualisering gemeentebestuur** (Municipal Government
+Dualization Act, 7 March 2002) separated the legislative and
+executive functions at the municipal level:
+
+- Wethouders no longer sit on the council;
+- Council and executive operate analogously to the Tweede Kamer
+  / cabinet relationship at national level;
+- The council's representative function is statutorily
+  emphasized.
+
+For U.S. drafters: the dualization model is one drafting choice
+for how to separate council legislative function from executive
+function. The U.S. council-manager system reaches a similar
+result through a different route (council elects/appoints a
+manager; manager runs the executive).
+
+#### Sub-municipal councils — *deelgemeenten / stadsdeelraden* abolished 2014
+
+Pre-2014, Amsterdam had directly elected *stadsdeelraden*
+(district councils) for its seven *stadsdelen* (urban districts);
+Rotterdam had analogous *deelgemeenten*. These were sub-municipal
+elected bodies with their own proportional elections.
+
+The **Wet afschaffing deelgemeenten** (Law abolishing
+sub-municipal entities, 2014) removed these bodies nationally.
+Amsterdam replaced its stadsdeelraden with **bestuurscommissies**
+(administrative commissions); for the first 2014 cycle these
+were directly elected, but they were subsequently converted to
+appointed bodies with reduced powers.
+
+For the project, the 2014 abolition is a documented case of
+**retreat from local PR**: a layer of proportionally elected
+representation was removed by national legislation, with the
+municipality losing the option to retain it. U.S. drafters
+considering sub-municipal PR structures (e.g., neighborhood
+councils with elected representatives) should be alive to the
+political-economy lessons: such bodies require ongoing
+political support to survive cycles of efficiency-focused
+restructuring.
 
 ### E. Vote count, certification, dispute resolution
 
@@ -868,3 +952,15 @@ procedural_safeguards: compliant
 - 1997 voorkeursdrempel lowering documented.
 - Lokale partijen ecosystem and the universal-party-
   registration framework documented in Connected B.
+
+**2026-05-05** (local-governance addendum):
+- Burgemeester appointment regime (Grondwet Art. 131)
+  documented.
+- Wet dualisering gemeentebestuur (2002) — separation of
+  council and executive functions — documented.
+- Wet afschaffing deelgemeenten (2014) — abolition of
+  Amsterdam stadsdeelraden and Rotterdam deelgemeenten —
+  documented as a case of retreat from local PR.
+- College van burgemeester en wethouders structure
+  documented as the mechanism by which proportional council
+  composition produces the executive.
