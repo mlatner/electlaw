@@ -102,8 +102,11 @@ Cases are selected to maximize coverage of the design space:
   flexible list / parallel-ordered list choice.
 - **Belgium** — three regional regimes; flexible list; Imperiali
   formula at municipal level.
-- **Brazil** — open-list at the candidate-centered extreme; recent
-  abolition of *coligações*; *federações partidárias*.
+- **Brazil** — party-list system with strongly candidate-centered
+  intra-list dynamics (personal-vote totals govern seat assignment
+  within each list); recent abolition of *coligações* for
+  proportional contests; *federações partidárias* as a partial
+  replacement.
 - **Chile** — post-2015 reform; independent-list mechanics;
   Constitutional Convention experience.
 - **South Africa** — local mixed (ward + PR); independents on PR
