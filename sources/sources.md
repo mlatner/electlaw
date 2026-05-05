@@ -96,6 +96,35 @@ it offers. Annotate further once read.
 
 ## Primary statutes
 
+### Brazil
+
+#### Primary statutes
+
+- **Constituição da República Federativa do Brasil** (1988),
+  Arts. 14, 17, 29(IV). Cached at
+  `sources/brazil/constituicao.html`.
+  <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>
+- **Código Eleitoral** (Lei nº 4.737, de 15 de julho de 1965),
+  consolidated text. Arts. 106–109 govern the proportional
+  system. Cached at `sources/brazil/l4737compilado.html`.
+  <https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm>
+- **Lei das Eleições** (Lei nº 9.504/1997). Cached at
+  `sources/brazil/l9504.html`.
+  <https://www.planalto.gov.br/ccivil_03/leis/l9504.htm>
+- **Lei dos Partidos Políticos** (Lei nº 9.096/1995).
+- **Emenda Constitucional nº 58/2009** — population-tiered
+  council-size table (CF Art. 29(IV)).
+- **Emenda Constitucional nº 97/2017** — abolition of
+  *coligações* in proportional elections.
+- **Lei nº 14.208/2021** — *federações partidárias*.
+- **Lei nº 14.211/2021** — amendments to CE Arts. 107, 108, 109.
+
+#### Constitutional decisions
+
+- **STF, ADI 7228, ADI 7263, ADI 7325** (February 2024) — the
+  80% party-level and 20% candidate-level performance
+  thresholds in CE Art. 109 § 2º declared unconstitutional.
+
 ### Australia — NSW (local level)
 
 #### Primary statutes
