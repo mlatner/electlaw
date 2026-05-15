@@ -51,11 +51,11 @@ the depth needed to show how they affect the three components.
   access for non-party lists; administrative implementation by
   EMBs; certification and dispute resolution.
 
-## Comparative cases (13)
+## Comparative cases (12)
 
-Germany · United Kingdom · Spain · Netherlands · Belgium · Finland
-· Denmark · Brazil · Chile · South Africa · New Zealand · Scotland
-· Australia
+Germany · Spain · Netherlands · Belgium · Denmark · Brazil
+· Chile · South Africa · New Zealand · Scotland · Australia
+· France
 
 ## Diagnostic and reference tools
 

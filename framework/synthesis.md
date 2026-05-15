@@ -96,10 +96,10 @@ Cases are selected to maximize coverage of the design space:
 - **Netherlands** — *lokale partijen* as a working non-party list
   system; preference votes; abolished apparentement.
 - **Spain** — *agrupación de electores* under LOREG.
-- **Finland** — pure open list; *valitsijayhdistys* voter
-  associations.
-- **Denmark** — list-cartel mechanics (*listeforbund* / *valgforbund*);
-  flexible list / parallel-ordered list choice.
+- **Denmark** — two-tier flexible-list PR; party-elective intra-list
+  architecture (*partiliste* vs *sideordnet opstilling*);
+  list-cartel mechanics (*listeforbund* / *valgforbund*) abolished
+  at the Folketing level in 2018, surviving at the municipal level.
 - **Belgium** — three regional regimes; flexible list; Imperiali
   formula at municipal level.
 - **Brazil** — party-list system with strongly candidate-centered
@@ -121,8 +121,6 @@ Cases are selected to maximize coverage of the design space:
   of scope.
 - **Australia** (NSW local + Senate) — above-the-line group voting
   as a list-shaped administrative interface.
-- **United Kingdom** (London Assembly only) — mostly a negative
-  case; minimal list-PR exposure.
 
 ## How a case is documented
 

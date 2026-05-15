@@ -114,9 +114,8 @@ the count, so that small groups can pool votes for the formula step
 and then divide the resulting seats internally. Forms include:
 
 - *Listeforbund* / *valgforbund* (Denmark): three-tier nested
-  cartels.
-- *Yhteislista* and *vaaliliitto* (Finland): joint lists and
-  electoral alliances.
+  cartels; abolished at the Folketing level in 2018, surviving
+  at the municipal level under the Kommunal- og regionalvalgloven.
 - Pre-2017 *coligações* in Brazil municipal elections (now
   abolished for proportional contests).
 - *Lijstverbinding* (Netherlands): formerly permitted, abolished.

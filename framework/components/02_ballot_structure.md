@@ -75,7 +75,6 @@ law. Working systems abroad have answered this question:
 - Germany (*Wählergemeinschaft*, *Wählervereinigung*).
 - Spain (*agrupación de electores* under LOREG).
 - Netherlands (*lokale partij*).
-- Finland (*valitsijayhdistys*, voter association).
 - Chile (*candidatura independiente* / pacto independiente).
 
 Statutory rules on what labels are permissible, what verification is
