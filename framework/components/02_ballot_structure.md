@@ -184,9 +184,130 @@ When all twelve cases are documented:
    and how are deceptive labels prevented?
 2. What ballot-error rates are documented for each ballot type, and
    how do they distribute across socioeconomic and racial groups?
+   (See *Empirical evidence base* below.)
 3. Where do open-list systems set the preference-vote threshold for
    reordering, and what is the comparative incidence of reordering?
 
 ---
 
-**Reference**: primer pp. 9–13.
+## Empirical evidence base — ballot error rates and minority representation
+
+Research Question #2 above is answered by a consolidated systematic
+review of the comparative and experimental literature on ballot
+complexity, voter error, and invalid votes:
+
+- **Latner, M.** (working paper, March 2026). *Ballot Complexity, Voter
+  Error, and Invalid Votes: A Systematic Review with Comparison Tables.*
+  Located at `sources/literature/Consolidated_Systematic_Review_Voter_Error_Electoral_Design.docx`
+  (review text) and `sources/literature/Summary_Tables_Error_Bias_By_Stage.docx`
+  (comparison tables). Spans mid-1990s through early 2026; 30+ studies
+  across experimental, observational, and cross-national designs.
+
+### Headline findings relevant to the ballot-structure spectrum
+
+The review's evidence aligns with the primer's ballot-structure
+spectrum. Error rates rise approximately monotonically as ballots
+move from coalition-centered to candidate-centered. This is a
+component-level (Axis-2) pattern; the two-axis frame the companion
+diagnostic blog post uses (see `~/error/CLAUDE.md`) separates it
+from Axis 1 (Inclusive ↔ Exclusive, district magnitude), which is
+component-1 territory. Approximate observed/experimental invalid
+or mismark rates:
+
+| Ballot type | Invalid / mismark rate | Source |
+|---|---|---|
+| Closed-list party vote | <1–2% | Kouba & Lysek 2019 |
+| Approval voting | <1% (exp.) | Haase Formánková et al. 2026 (0.1%); Balinski & Laraki 2007 (majority-judgment experimental, ~1%) |
+| FPTP single mark | ~1.5–2% (exp.); 0.5–1.5% US residual | Haase et al. 2026; Ansolabehere & Stewart 2005 |
+| Flexible-list PR | ~2–4% mismark (est.) | Flis & Kaminski 2025 |
+| Open-list PR (mandatory) | ~12.9% "faulty" vs SMD | Flis & Kaminski 2025 |
+| RCV/IRV optional | ~4.8% improper + 9.6–27.1% exhaustion | Pettigrew & Radley 2026 (overvotes/overranks/skips); Burnett & Kogan 2015 |
+| STV / IRV full rank | 8.4% (exp.); 14.9% NYC exhaustion | Haase et al. 2026; McCarty 2025 |
+| Free list (panachage) | Predicted highest | — |
+
+### Three findings most relevant to the project's "capacity for minority representation" lens
+
+1. **The "PR blow"** (Flis & Kaminski 2025): Polish OLPR vs SMD
+   natural experiment shows ~12.87% more eligible voters cast a
+   "faulty" vote under OLPR than under SMD — similar in magnitude
+   but opposite in direction to the well-documented PR turnout boost.
+   PR brings marginal voters in; complex ballots then partially
+   waste their votes through error.
+
+2. **Sociodemographic gradient** (Haase Formánková et al. 2026;
+   McAllister & Makkai 1993; Kouba & Lysek 2019 meta): in the Czech
+   experiment, participants without university degrees were 2.44–2.75×
+   more likely to cast invalid ballots; the "PR blow" is larger in
+   lower-education constituencies. The meta-analytic evidence is
+   direction-consistent but not uniformly monotonic across individual
+   studies — Kouba & Lysek 2019 (54 studies reviewed; 28 meta-analyzed
+   across 37 models and 129 tests) find a significant negative overall
+   effect for education (r = 0.42, p < 0.05), but 11 hypothesized-
+   direction education tests break down as 4 opposite-direction, 8
+   null, 11 confirming (23 total). Directional claims about education
+   in drafting narrative should reflect the *average* effect, not a
+   uniform-effect assumption.
+
+3. **Minority-representation specifics**:
+   - **Spadaro (2018)**: under open-list PR, unlimited preference
+     voting amplifies majority power; limiting preferences
+     improves minority representation. *Directly relevant to
+     Level B coordination drafting choices.*
+   - **McCarty (2025)**: significant racial/ethnic disparities in
+     RCV ballot exhaustion (NYC and Alaska).
+   - **Tomz & Van Houweling (2003)**: racial gap in voided US
+     ballots is largely a function of voting equipment;
+     appropriate technology virtually eliminates the disparity.
+     *Physical ballot design and equipment are independent levers
+     from allocation-formula choice.* Corroborating case: the 2007
+     Scottish parliament ballot redesign produced a major spike in
+     invalid voting (Carman, Mitchell & Johns 2008); parallel
+     evidence from Colombia's 2006/2010 open-list ballot redesign
+     inside a stable open-list system reduced invalid rates and
+     narrowed the rural-urban gap (Pachón et al.).
+
+### Design implications for the U.S. model statute
+
+The review supports several drafting choices already in the project's
+spine:
+
+- **One-vote architecture with party-or-candidate options** (the
+  user's working baseline, see `project_electlaw.md`) preserves the
+  low-floor of closed-list while admitting candidate expression —
+  the "best compromise" the review identifies on its error vs.
+  expressiveness axis.
+- **Preference-vote limits or thresholds** for reordering under any
+  open-list option — directly motivated by Spadaro 2018 and the
+  Polish "PR blow" finding.
+- **Partial-credit validity rules** wherever permitted — count
+  partial intent rather than disqualifying ballots with one
+  defect. Particularly relevant for any ranked variant the model
+  statute might allow as a state-level option.
+- **Avoid concurrent-election overload** (Lysek & Kouba 2022; Spáč
+  & Zagrapan 2025) — the cumulative attention tax produces invalid
+  voting even when each individual ballot is well-designed.
+
+### Crosswalk: 12 jurisdictions × ballot-architecture × evidence row
+
+See `comparisons/ballot_error_crosswalk.md` for a tabular map of
+each case profile's ballot architecture to the review's evidence
+rows.
+
+### Companion diagnostic treatment (blog series)
+
+A parallel diagnostic treatment of the same evidence base has been
+drafted for Latner's *Election Administration and Electoral Bias*
+blog series at `~/error/posts/2026-07-22-ballot-error-diagnostic/`.
+That post organizes evidence by *findings* (distributional
+invariance, coordination-task drivers, invalidation-rule strictness,
+error-consequence rule) and passed a systematic fact-check on
+2026-07-22–23 that produced ten citation-level corrections. Those
+corrections have been propagated back into this section and into the
+crosswalk. See `../../docs/sources_log.md` for the correction ledger.
+Where the blog post has retired framings (e.g., "cancels the PR
+boost"), the electlaw framework has followed suit.
+
+---
+
+**Reference**: primer pp. 9–13; Latner systematic review (March 2026)
+at `sources/literature/`.
