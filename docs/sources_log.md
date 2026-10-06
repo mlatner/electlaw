@@ -258,3 +258,57 @@ relied on. **Not yet done:** NY Election Law §6-140 (petition form); the CT and
 provisions governing line-level tallies; whether any municipality in a line-based fusion
 state uses multi-seat at-large council elections, which would put both halves in one
 jurisdiction.
+
+### Follow-up 2: straight-ticket voting — the US *did* have a closed-list multi-seat ballot, and repealed it in 2016
+
+**Straight-ticket voting + a multi-seat race is, mechanically, a closed-list vote**: one
+mark casts votes for a party's entire slate in that contest. This is the closest thing in
+US law to a list ballot, and it is not hypothetical.
+
+**Six states retain straight-ticket voting** (NCSL, updated 2025-12-09): **Alabama,
+Indiana, Kentucky, Michigan, Oklahoma, South Carolina**.
+
+**Indiana is the case.** Indiana **abolished the straight-ticket vote for at-large
+elections in 2016**, retaining it for all other partisan races. Before that change, a
+single straight-ticket mark cast votes for a party's **whole at-large slate** on county
+and town councils — a closed-list vote in all but name, in a US jurisdiction, within the
+last decade. After 2016 a straight-ticket mark "no longer records any votes in races where
+the voter is required to choose multiple candidates," and voters must mark each at-large
+candidate individually.
+
+**The stated reason for the repeal is directly in our wheelhouse.** Counties reported
+ballots where voters selected straight-ticket **and then also marked individual at-large
+candidates**, creating ambiguity about intent and potential overvotes. That is a ballot-
+complexity and invalid-vote problem of exactly the kind catalogued in the March 2026
+systematic review (see `sources/literature/`, memory `reference_voter_error_review`).
+**The US abandoned its one working list-style multi-seat ballot on voter-error grounds,
+not on representational ones.** That is a finding the model statute has to answer, because
+the same interaction will recur in any list ballot that coexists with single-seat races on
+the same sheet.
+
+**It is live.** A bipartisan Indiana effort is pushing to **restore** straight-ticket votes
+to at-large races (Rep. Payne; Senate Elections committee testimony pressing for clearer
+ballot instructions). Worth tracking: the instruction-design question is the same one a
+list ballot faces.
+
+**New Jersey's "county line"** is the strongest *visual* list analog — the primary ballot
+grouped county-party-endorsed candidates into a single row or column **regardless of
+office**, with unbracketed candidates pushed to separate columns ("Ballot Siberia"). But it
+is placement, not aggregation: votes were never pooled. It was enjoined as a severe First
+Amendment burden, **Kim v. Hanlon**, D.N.J., aff'd **3d Cir. No. 24-1594 (Apr. 17, 2024)**.
+A cautionary precedent: organizational grouping on a ballot can itself be held
+unconstitutional when it confers advantage without a vote-aggregation rationale.
+
+**Revised bottom line across all three follow-ups.** US law has supplied every component of
+a list ballot at some point, in some jurisdiction — a shared non-party label (CO, MA, RI),
+a multi-candidate ballot line with line-level tallies (NY, CT, SC), organizational grouping
+across offices (NJ, now enjoined), and **a single mark casting a whole multi-seat slate
+(Indiana, until 2016)**. What has never existed is **one jurisdiction holding the
+components together with a seat-allocation rule attached.**
+
+**Next check, and it is the important one: do any of the remaining five straight-ticket
+states apply the straight-ticket mark to multi-seat races?** South Carolina has multi-seat
+county councils and is also a line-based fusion state, which would put grouping and
+multi-seat in one jurisdiction. Alabama, Kentucky, Michigan, Oklahoma all have multi-seat
+local bodies. **If any one of them still counts a straight-ticket mark across an at-large
+slate, there is a live US closed-list ballot in production right now.** Not yet verified.
