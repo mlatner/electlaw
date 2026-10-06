@@ -373,3 +373,59 @@ of Minority Representation Law*, 95-R-1368).
 when a candidate appears on more than one line; and identify a Connecticut town whose
 at-large board election has produced a cap-binding result, which would be the worked
 example for the paper.
+
+### CORRECTION to follow-up 2 — straight-ticket is a block vote, not a closed list
+
+Owner supplied prior research: **"At-Large Congressional Elections and Straight-Ticket
+Voting, 1889–1967"**, ~3,100 words, filed at
+`sources/us_history/at-large_straight-ticket_1889-1967.docx`. It answers the question this
+session was circling and **corrects an overstatement I made above.**
+
+**I wrote that Indiana's pre-2016 at-large straight-ticket vote was "a closed-list vote in
+all but name." That is wrong.** The document is explicit:
+
+> "Where a straight-ticket option existed, one mark cast **one vote for each candidate that
+> party had listed** — transparently and with no party discretion: the mark mechanically
+> attached the voter's vote to specific, named, publicly known candidates, and the party
+> chose its slate beforehand through nomination, **never afterward through allocation**.
+> This did not mean the party's candidates won or lost together… each seat or post was
+> tallied as its own contest. A party's candidates therefore drew different totals and
+> could diverge in outcome."
+
+So straight-ticket in a multi-seat race is **block voting with a convenience mark**. Three
+features distinguish it from a list, and all three are decisive:
+1. votes attach to **named candidates**, never to the party;
+2. **each seat is tallied as its own contest**;
+3. a party's candidates **diverge in outcome** — demonstrated in Ohio's 1932 at-large
+   election, where the major-party candidates drew distinct totals (Truax 1,206,631; Young
+   1,200,946; Bender 1,109,562; Palmer 1,102,567).
+
+**The document's central negative finding is cleaner and stronger than anything I found
+today:** "In none of these states did a voter choose only a party and then have the party
+allocate that vote to candidates of its own choosing. That mechanism — a closed party list
+or group voting ticket — **has never been used for U.S. congressional elections.**"
+
+It also records **New Mexico's designated-post system** — two at-large seats run as two
+separate head-to-head contests (1966: Morris v. Cook; Walker v. Davidson) — as a third
+pattern that is not a list either.
+
+**Caveat the document states about itself:** the at-large data (years, seat counts) is
+solid and well-sourced; the **straight-ticket column is looser**, since no single source
+gives a clean year-by-year national roster across eight decades. Straight-ticket was the
+norm — a majority of states into the 1960s — so the base rate of overlap is high, but any
+individual state-year needs that state's election code for that year. **Hawaii cannot be
+confirmed.**
+
+**Part II of the document** takes up whether a state party-list ballot would be
+unconstitutional, separating the Elections Clause "Manner" question from the statutory one,
+and notes the threshold point that **2 U.S.C. §2c (Uniform Congressional District Act)
+requires single-member districts**, so party-list for the U.S. House is statutorily
+precluded regardless of the constitutional answer. This is the provision the Carnegie
+packet's reform program already targets for amendment.
+
+**How this bears on today's findings.** It sharpens rather than undercuts them. The
+distinction the document draws — grouping and convenience versus **party-level pooling and
+post-hoc allocation** — is the same line that separates every US mechanism found today from
+an actual list. Connecticut §9-167a remains the strongest finding precisely because it is
+the one place where **allocation by party happens at all**, even as a cap rather than a
+quota.
