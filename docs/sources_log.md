@@ -177,3 +177,39 @@ since their ballot structures differ from the states'.
 **Distinguish from the earlier at-large/party-list work**: that line concerned whether
 historical at-large *partisan* races functioned as lists. This is the unaffiliated case,
 where the party vehicle is absent by definition.
+
+**Correction, same session (owner): New York is a fusion state, and that changes what the
+"independent body" is.** Under fusion the organizing unit on a New York ballot is the
+**line**, not the candidacy — a candidate may occupy several lines at once, and a line may
+carry candidates across multiple offices. So §6-138's independent body is properly
+characterized as a **non-party ballot line**, not as a slate mechanism. The right
+comparison is to a party line (Working Families, Conservative), not to a group of
+independents filing together.
+
+Two consequences, pulling in opposite directions:
+
+1. **It weakens the independent-slate reading.** An independent body in practice is often a
+   vehicle for cross-endorsement — giving an existing major-party candidate an additional
+   line — rather than for genuinely unaffiliated candidates running as a group. The
+   exclusivity rule in §6-138 (no confusing name "for the same office") is line-protection,
+   which is what fusion requires; it is not evidence of slate formation.
+2. **It strengthens the structural point.** New York already prints **ballot lines that are
+   not parties and that carry multiple candidates across offices as a visual unit.** That
+   is structurally the closest thing in US law to a list. The line exists; the membership
+   exists; the ballot already groups by it. What is still absent is **vote-pooling and seat
+   allocation across the line** — the same gap as in Colorado, Massachusetts, and Rhode
+   Island, but reached from a different direction.
+
+**Revised summary of the finding.** Two distinct US mechanisms get partway to a non-party
+list, and neither aggregates:
+- the **three-word designation** (CO, MA, RI) — a shared label attached to individually
+  nominated candidates;
+- the **fusion ballot line** (NY) — a genuine multi-candidate grouping, printed as a unit,
+  available to non-parties.
+
+The fusion line is the better model for a US list-PR statute, because the grouping already
+exists in law and on the ballot. The statutory work is to attach an allocation rule to a
+line, not to invent a vehicle. **Worth checking the other fusion states — Connecticut,
+Delaware, Idaho, Mississippi, New York, South Carolina, Vermont** — for whether any
+already pools votes by line in a multi-seat context. [list of fusion states **unverified**,
+from general knowledge; confirm before relying on it]
