@@ -213,3 +213,48 @@ line, not to invent a vehicle. **Worth checking the other fusion states — Conn
 Delaware, Idaho, Mississippi, New York, South Carolina, Vermont** — for whether any
 already pools votes by line in a multi-seat context. [list of fusion states **unverified**,
 from general knowledge; confirm before relying on it]
+
+### Follow-up: do any fusion states pool by line in a multi-seat context? **No — and the reason is structural.**
+
+**Fusion-state list confirmed** (Brennan Center, *More Choices, More Voices*; Ballotpedia;
+Wikipedia, *Electoral fusion in the United States*): **Connecticut, Delaware, Idaho,
+Mississippi, New York, South Carolina, Vermont**, plus **Oregon**. Active in practice only
+in **New York and Connecticut**; not practiced in Idaho or Mississippi. The earlier
+unverified list was correct but omitted Oregon.
+
+**There are two different mechanisms under the word "fusion," and the difference is the
+whole answer:**
+
+1. **Line-based fusion (CT, NY, SC).** "A cross-endorsed candidate's name appears on the
+   ballot as many times as he or she is chosen as a party's nominee, with the candidate's
+   **votes on each party's ballot added together**." Separate lines, **separately tallied**,
+   then summed for the candidate.
+2. **Dual-labeling (OR, VT).** The candidate appears on **one** line with all endorsing
+   party names printed beside the name. No separate lines, therefore no line-level tally.
+
+**Vermont is the decisive test, and it fails.** Vermont is the one fusion-list state with
+substantial multi-member districts — **41 two-member House districts, 82 of 150
+representatives** — elected by **block voting**. But Vermont is a *dual-labeling* state, so
+it has no ballot lines to pool. Conversely the states that do have real lines (NY, CT, SC)
+elect legislators from **single-member** districts, where there is nothing to allocate.
+
+**So the multi-seat case and the ballot-line case never coincide in US law.** That is the
+gap, stated precisely, and it is a structural accident rather than a prohibition.
+
+**The genuinely useful corollary.** Line-based fusion means **New York and Connecticut
+already tally votes by line and already report line-level totals** — the ballot design, the
+canvass, and the reporting all support it, because summing across lines requires counting
+each line separately first. The administrative machinery for a list vote therefore
+**already exists and is already in production** in two states.
+
+What a list-PR statute would have to add is **only the allocation step**: instead of summing
+a line's votes into one candidate, apportion the line's votes into seats among the
+candidates carried on that line. Nothing about nomination, ballot printing, or canvassing
+would need inventing.
+
+**This is the strongest available US hook for a model statute.** It should be checked
+against the actual CT and NY canvass statutes and against a real returns file before being
+relied on. **Not yet done:** NY Election Law §6-140 (petition form); the CT and NY canvass
+provisions governing line-level tallies; whether any municipality in a line-based fusion
+state uses multi-seat at-large council elections, which would put both halves in one
+jurisdiction.
