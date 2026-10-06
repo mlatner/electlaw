@@ -312,3 +312,64 @@ county councils and is also a line-based fusion state, which would put grouping 
 multi-seat in one jurisdiction. Alabama, Kentucky, Michigan, Oklahoma all have multi-seat
 local bodies. **If any one of them still counts a straight-ticket mark across an at-large
 slate, there is a live US closed-list ballot in production right now.** Not yet verified.
+
+### ANSWER: Connecticut. Multi-seat at-large local bodies, ballot lines, **and a party-based seat-allocation rule already in statute.**
+
+**Conn. Gen. Stat. §9-167a, "Minority representation."** Caps the number of members of any
+board, commission, legislative body, committee or similar body — **elected or appointed** —
+who may belong to the same political party:
+
+| Total membership | Max from one party |
+|---:|---:|
+| 3 | 2 |
+| 4 | 2 |
+| 5 | 3 |
+| 6 | 4 |
+| 7 | 5 |
+| 8 | 5 |
+| 9 | 6 |
+| >9 | two-thirds |
+
+It applies to "most governmental bodies of the state, its municipalities, and other
+political subdivisions," and — decisively for this question — **exempts bodies "elected on
+the basis of geographical division."** The exemption means the statute operates **precisely
+on at-large multi-seat bodies**. Related: **§9-188**, selectmen, carries "Minority
+representation; **restricted voting**" — i.e. limited voting, in statute, for an at-large
+multi-seat office.
+
+**Connecticut therefore holds all three components in one jurisdiction:**
+1. **Line-based fusion** — separate ballot lines, each tallied separately before being
+   summed (established in follow-up 1);
+2. **Multi-seat at-large local bodies** — the bodies §9-167a was written for;
+3. **A seat-allocation rule keyed to party** — the cap itself.
+
+This is the demonstration case the model statute needed, and it reframes the drafting
+problem. Connecticut does not merely permit party-based seat allocation in multi-seat
+at-large elections; **it requires it, statewide, and has since the 1950s.** The move from
+"no party may hold more than two-thirds" to "seats are allocated in proportion to the votes
+cast on each line" is **a change of allocation formula inside an existing legal
+architecture**, not the construction of a new one. The harder questions — may the state
+condition local multi-seat elections on party composition at all, may a ballot group
+candidates by organization, does a non-majority party get guaranteed seats — Connecticut
+has already answered affirmatively, and the law has been tested (see CGA OLR, *Constitutionality
+of Minority Representation Law*, 95-R-1368).
+
+**Caveats, to resolve before relying on this.**
+- The table and scope above are from **CGA Office of Legislative Research reports**
+  (2017-R-0344; 95-R-1368) and Justia's 2011 codification, **not from a direct read of the
+  current statute**. Pull the operative text from the current General Statutes before citing.
+- §9-167a is a **cap, not a quota**. It guarantees a minority party *at most* a floor by
+  limiting the majority; it does not allocate in proportion to votes. The distinction
+  matters for how the model provision is framed.
+- Whether the cap interacts with fusion lines in practice — e.g. how a cross-endorsed
+  candidate's party is determined for cap purposes — is **unexamined** and is the obvious
+  next question.
+- **New York is the weaker parallel but worth noting**: village boards are typically a mayor
+  plus four trustees **elected at-large**, in a line-based fusion state, but with no
+  allocation rule attached. NY supplies the lines and the multi-seat contest; Connecticut
+  supplies those *and* the allocation rule.
+
+**Next:** read §9-167a and §9-188 as currently enacted; find how the cap is administered
+when a candidate appears on more than one line; and identify a Connecticut town whose
+at-large board election has produced a cap-binding result, which would be the worked
+example for the paper.
